@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'legodudes',
 
-  projectId: 'xbpab6cz',
+  projectId: 'g1ijq4nb',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
