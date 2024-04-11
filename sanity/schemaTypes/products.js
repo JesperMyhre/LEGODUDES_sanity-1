@@ -18,6 +18,11 @@ export const products = {
             }
         },
         {
+          title: "Beskrivelse",
+          name: "Description",
+          type: "text"
+        },
+        {
             title: "Pris",
             name: "price",
             type: "number"
