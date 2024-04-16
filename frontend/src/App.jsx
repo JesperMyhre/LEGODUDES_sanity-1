@@ -16,12 +16,9 @@ function App() {
   return (
     <Layout cart={cart} setCart={setCart} amount={amount} category={category}>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route
-          path="/"
-          element={<Home setAmount={setAmount} cart={cart} setCart={setCart} />}
-        />
-        <Route
-          path="/produkter/:slug"
+          path="/produkter/:id"
           element={
             <ContentPage
               amount={amount}

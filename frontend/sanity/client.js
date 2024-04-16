@@ -1,4 +1,4 @@
-import {createClient} from '@sanity/client'
+import { createClient } from '@sanity/client'
 
 export const client = createClient({
   //Hvis du har hentet dette prosjektet fra GitHub, må du endre
